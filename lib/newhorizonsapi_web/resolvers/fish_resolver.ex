@@ -15,4 +15,9 @@ defmodule NewhorizonsapiWeb.FishResolver do
     fishes = Animals.get_fish_over_price(price)
     {:ok, fishes}
   end
+
+  def fish_by_location(_root, %{location: location}, _info) do
+    fishes = Animals.get_fish_by_location(location)
+    {:ok, fishes}
+  end
 end

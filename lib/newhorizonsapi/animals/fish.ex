@@ -5,6 +5,7 @@ defmodule Newhorizonsapi.Animals.Fish do
   schema "fishes" do
     field :name, :string
     field :price, :integer
+    field :location, :string
 
     timestamps()
   end
@@ -12,7 +13,7 @@ defmodule Newhorizonsapi.Animals.Fish do
   @doc false
   def changeset(fish, attrs) do
     fish
-    |> cast(attrs, [:name, :price])
-    |> validate_required([:name, :price])
+    |> cast(attrs, [:name, :price, :location])
+    |> validate_required([:name, :price, :location])
   end
 end

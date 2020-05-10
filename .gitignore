@@ -28,3 +28,4 @@ newhorizonsapi-*.tar
 /priv/static/
 
 /.elixir_ls/
+.elixir_ls/

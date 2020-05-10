@@ -50,6 +50,17 @@ defmodule Newhorizonsapi.Animals do
     |> Repo.all()
   end
 
+  def get_fish_by_location(location) do
+    query =
+      from(
+        fish in Fish,
+        where: ilike(fish.location, ^"%#{location}%")
+      )
+
+    query
+    |> Repo.all()
+  end
+
   @doc """
   Creates a fish.
 

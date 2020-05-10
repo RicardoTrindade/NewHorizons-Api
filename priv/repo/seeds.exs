@@ -15,11 +15,11 @@ alias Newhorizonsapi.Repo
 
 File.stream!("fish_export.csv")
 |> Stream.drop(1)
-|> CSV.decode(headers: [:name, :sell_value])
+|> CSV.decode(headers: [:name, :sell_value, :location])
 |> Enum.each(fn {:ok, map} ->
   Fish.changeset(
     %Fish{},
-    %{name: map[:name], price: String.to_integer(map[:sell_value])}
+    %{name: map[:name], price: String.to_integer(map[:sell_value]), location: map[:location]}
   )
   |> Repo.insert!()
 end)

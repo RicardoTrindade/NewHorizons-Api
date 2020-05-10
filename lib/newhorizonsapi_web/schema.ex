@@ -6,7 +6,7 @@ defmodule NewhorizonsapiWeb.Schema do
   object :fish do
     field :id, non_null(:id)
     field :name, non_null(:string)
-    field :shadow, non_null(:integer)
+    field :location, non_null(:string)
     field :price, non_null(:integer)
   end
 
@@ -28,6 +28,13 @@ defmodule NewhorizonsapiWeb.Schema do
       arg(:price, non_null(:integer))
 
       resolve(&FishResolver.fish_by_value/3)
+    end
+
+    @desc "Get fishes in location"
+    field :fish_location, non_null(list_of(non_null(:fish))) do
+      arg(:location, non_null(:string))
+
+      resolve(&FishResolver.fish_by_location/3)
     end
   end
 end

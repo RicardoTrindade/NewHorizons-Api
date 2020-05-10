@@ -1,82 +1,82 @@
-name,sell_value
-Anchovy,200
-Angelfish,3000
-Arapaima,10000
-Arowana,10000
-Barred Knifejaw,5000
-Barreleye,15000
-Betta,2500
-Bitterling,900
-Black Bass,400
-Blowfish,5000
-Blue Marlin,10000
-Bluegill,180
-Butterfly Fish,1000
-Carp,300
-Catfish,800
-Char,3800
-Cherry Salmon,1000
-Clown Fish,650
-Coelacanth,15000
-Crawfish,200
-Crucian Carp,160
-Cruician Carp,160
-Dab,300
-Dace,240
-Dorado,15000
-Football Fish,2500
-Freshwater Goby,400
-Frog,120
-Gar,6000
-Giant Snakehead,5500
-Giant Trevally,4500
-Golden Trout,15000
-Goldfish,1300
-Great White Shark,15000
-Guppy,1300
-Hammerhead Shark,8000
-Horse Mackerel,150
-Killifish,300
-King Salmon,1800
-Koi,4000
-Loach,400
-Mahi-mahi,6000
-Mitten Crab,2000
-Moray Eel,2000
-Napoleonfish,10000
-Neon Tetra,500
-Nibble Fish,1500
-Oarfish,9000
-Ocean Sunfish,4000
-Olive Flounder,800
-Pale Chub,200
-Pike,1800
-Piranha,2500
-Pond Smelt,400
-Pop-eyed Goldfish,1300
-Puffer Fish,250
-Rainbowfish,800
-Ranchu Goldfish,4500
-Ray,3000
-Red Snapper,3000
-Ribbon Eel,600
-Saddled Bichir,4000
-Salmon,700
-Saw Shark,12000
-Sea Bass,400
-Sea Butterfly,1000
-Sea Horse,1100
-Snapping Turtle,5000
-Soft-shelled Turtle,3750
-Squid,500
-Stringfish,15000
-Sturgeon,10000
-Suckerfish,1500
-Surgeonfish,1000
-Sweetfish,900
-Tadpole,100
-Tilapia,800
-Tuna,7000
-Whale Shark,13000
-Yellow Perch,300
-Zebra Turkeyfish,500
+name,sell_value,location
+Anchovy,200,sea
+Angelfish,3000,river
+Arapaima,10000,river
+Arowana,10000,river
+Barred Knifejaw,5000,sea
+Barreleye,15000,sea
+Betta,2500,river
+Bitterling,900,river
+Black Bass,400,river
+Blowfish,5000,sea
+Blue Marlin,10000,pier
+Bluegill,180,river
+Butterfly Fish,1000,sea
+Carp,300,pond
+Catfish,800,pond
+Char,3800,River (Clifftop)
+Cherry Salmon,1000,River (Clifftop)
+Clown Fish,650,sea
+Coelacanth,15000,sea
+Crawfish,200,pond
+Crucian Carp,160,sea
+Cruician Carp,160,sea
+Dab,300,sea
+Dace,240,sea
+Dorado,15000,river
+Football Fish,2500,sea
+Freshwater Goby,400,river
+Frog,120,pond
+Gar,6000,pond
+Giant Snakehead,5500,pond
+Giant Trevally,4500,pier
+Golden Trout,15000,River (Clifftop)
+Goldfish,1300,pond
+Great White Shark,15000,sea
+Guppy,1300,river
+Hammerhead Shark,8000,sea
+Horse Mackerel,150,sea
+Killifish,300,pond
+King Salmon,1800,River (Mouth)
+Koi,4000,pond
+Loach,400,river
+Mahi-mahi,6000,pier
+Mitten Crab,2000,river
+Moray Eel,2000,sea
+Napoleonfish,10000,sea
+Neon Tetra,500,river
+Nibble Fish,1500,river
+Oarfish,9000,sea
+Ocean Sunfish,4000,sea
+Olive Flounder,800,sea
+Pale Chub,200,river
+Pike,1800,river
+Piranha,2500,river
+Pond Smelt,400,river
+Pop-eyed Goldfish,1300,pond
+Puffer Fish,250,sea
+Rainbowfish,800,river
+Ranchu Goldfish,4500,pond
+Ray,3000,sea
+Red Snapper,3000,sea
+Ribbon Eel,600,sea
+Saddled Bichir,4000,river
+Salmon,700,River (Mouth)
+Saw Shark,12000,sea
+Sea Bass,400,sea
+Sea Butterfly,1000,sea
+Sea Horse,1100,sea
+Snapping Turtle,5000,river
+Soft-shelled Turtle,3750,river
+Squid,500,sea
+Stringfish,15000,River (Clifftop)
+Sturgeon,10000,River (Mouth)
+Suckerfish,1500,sea
+Surgeonfish,1000,sea
+Sweetfish,900,river
+Tadpole,100,pond
+Tilapia,800,river
+Tuna,7000,pier
+Whale Shark,13000,sea
+Yellow Perch,300,river
+Zebra Turkeyfish,500,sea
