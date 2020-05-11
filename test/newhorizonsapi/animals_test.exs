@@ -6,7 +6,7 @@ defmodule Newhorizonsapi.AnimalsTest do
   describe "fishes" do
     alias Newhorizonsapi.Animals.Fish
 
-    @valid_attrs %{name: "some name", price: 42}
+    @valid_attrs %{name: "some name", price: 42, location: "Pond"}
     @update_attrs %{name: "some updated name", price: 43}
     @invalid_attrs %{name: nil, price: nil}
 
